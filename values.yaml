@@ -1,0 +1,12 @@
+appName: to-do-app
+
+image:
+  name: 492804330065.dkr.ecr.us-east-1.amazonaws.com/hao-todo-app
+  tag: latest
+
+env: 
+  db_host: perntodo.cba6rpvi5fmd.us-east-1.rds.amazonaws.com
+  password: 4fa680xf7OuXHZ4n
+
+certarn: arn:aws:acm:us-east-1:492804330065:certificate/5f8797c5-fdbb-4d49-9b3d-0e58d4cb9621
+connectdb: postgresql://postgres:4fa680xf7OuXHZ4n@perntodo.cba6rpvi5fmd.us-east-1.rds.amazonaws.com:5432/perntodo?sslmode=require

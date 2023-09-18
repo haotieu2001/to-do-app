@@ -1,0 +1,2 @@
+# connect to server 
+kubectl port-forward service/{{ .Values.appName }} 5000:5000 -n to-do-app
